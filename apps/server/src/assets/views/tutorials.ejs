@@ -1,0 +1,10 @@
+<script src="/static/elementos/main.elementos.min.js"></script>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+<caliber-header></caliber-header>
+<div class="container mt-5 mb-5">
+    <%= title %>
+    <% tutorials.forEach(function(tutorial){ %>
+      <h1><%=tutorial['title']%></h1>
+    <% }); %>
+</div>
+<mahrio-cal-footer></mahrio-cal-footer>
